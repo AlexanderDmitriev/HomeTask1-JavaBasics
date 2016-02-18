@@ -164,7 +164,7 @@ public int createSixDimensionArray() {   // Задание №9
 ////////////////////////////
     public static void main(String[] args) {
         Main math = new Main();
-        int gdc = math.getCommonDivisor(10, 15);
+        int gdc = math.getCommonDivisor(100, 15);
         int sumOfDigits = math.getSumOfDigits(123456); // 21
         boolean isPrime = math.isPrime(7); // true
         System.out.println("isPrime =  "+isPrime);
